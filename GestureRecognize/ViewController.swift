@@ -9,17 +9,25 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var imgBell: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.imgBell.userInteractionEnabled = true
+        self.imgBell.multipleTouchEnabled = true
+        
+        let pan = UIPanGestureRecognizer(target: self.imgBell, action: #selector(self.onPan(_:)))
+        self.imgBell.addGestureRecognizer(pan)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func onPan(pan : UIPanGestureRecognizer) {
+        if pan.state == .Began ||
+           pan.state == .Changed
+        {
+            self.imgBell.center = pan.locationInView(self.view)
+        }
     }
-
 
 }
 
