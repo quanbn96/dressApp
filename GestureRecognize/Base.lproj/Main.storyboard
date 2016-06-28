@@ -13,19 +13,47 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background1.jpg" id="72d-Ve-g0w">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.jpg" id="QAm-CA-lIt">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bell.png" id="vnR-YM-ef5">
-                                <rect key="frame" x="20" y="20" width="92" height="74"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="body.png" id="3iI-D8-08V">
+                                <rect key="frame" x="110" y="193" width="101" height="280"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quandai.png" id="qjO-Pk-7Dd" customClass="Item" customModule="GestureRecognize" customModuleProvider="target">
+                                <rect key="frame" x="20" y="65" width="55" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="giayvang.png" id="Kpr-Lm-WNU" customClass="Item" customModule="GestureRecognize" customModuleProvider="target">
+                                <rect key="frame" x="20" y="490" width="65" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mutim.png" id="9h2-Ly-nU5" customClass="Item" customModule="GestureRecognize" customModuleProvider="target">
+                                <rect key="frame" x="241" y="20" width="59" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aothun.png" id="N9Q-5G-etA" customClass="Item" customModule="GestureRecognize" customModuleProvider="target">
+                                <rect key="frame" x="240" y="85" width="60" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kinhkhongtrong.png" id="LQE-Re-goP" customClass="Item" customModule="GestureRecognize" customModuleProvider="target">
+                                <rect key="frame" x="20" y="20" width="60" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vay.png" id="x0K-XX-fZ7" customClass="Item" customModule="GestureRecognize" customModuleProvider="target">
+                                <rect key="frame" x="237" y="203" width="63" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vaydo.png" id="wL2-No-gAo" customClass="Item" customModule="GestureRecognize" customModuleProvider="target">
+                                <rect key="frame" x="200" y="317" width="100" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="imgBell" destination="vnR-YM-ef5" id="pI6-UG-6ig"/>
+                        <outlet property="body" destination="3iI-D8-08V" id="JnS-Hd-wh9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -34,7 +62,14 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Bell.png" width="239" height="211"/>
-        <image name="background1.jpg" width="264" height="191"/>
+        <image name="aothun.png" width="61" height="73"/>
+        <image name="background.jpg" width="3287" height="1511"/>
+        <image name="body.png" width="70" height="214"/>
+        <image name="giayvang.png" width="45" height="26"/>
+        <image name="kinhkhongtrong.png" width="34" height="14"/>
+        <image name="mutim.png" width="47" height="29"/>
+        <image name="quandai.png" width="53" height="108"/>
+        <image name="vay.png" width="47" height="52"/>
+        <image name="vaydo.png" width="60" height="126"/>
     </resources>
 </document>

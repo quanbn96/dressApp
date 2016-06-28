@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		140963031D2283CF000FD443 /* aothun.png in Resources */ = {isa = PBXBuildFile; fileRef = 140962FB1D2283CF000FD443 /* aothun.png */; };
+		140963041D2283CF000FD443 /* body.png in Resources */ = {isa = PBXBuildFile; fileRef = 140962FC1D2283CF000FD443 /* body.png */; };
+		140963051D2283CF000FD443 /* giaydo.png in Resources */ = {isa = PBXBuildFile; fileRef = 140962FD1D2283CF000FD443 /* giaydo.png */; };
+		140963061D2283CF000FD443 /* giayvang.png in Resources */ = {isa = PBXBuildFile; fileRef = 140962FE1D2283CF000FD443 /* giayvang.png */; };
+		140963071D2283CF000FD443 /* kinhkhongtrong.png in Resources */ = {isa = PBXBuildFile; fileRef = 140962FF1D2283CF000FD443 /* kinhkhongtrong.png */; };
+		140963081D2283CF000FD443 /* kinhram.png in Resources */ = {isa = PBXBuildFile; fileRef = 140963001D2283CF000FD443 /* kinhram.png */; };
+		140963091D2283CF000FD443 /* quandai.png in Resources */ = {isa = PBXBuildFile; fileRef = 140963011D2283CF000FD443 /* quandai.png */; };
+		1409630B1D2283E6000FD443 /* mutim.png in Resources */ = {isa = PBXBuildFile; fileRef = 1409630A1D2283E6000FD443 /* mutim.png */; };
+		1409630D1D228488000FD443 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1409630C1D228488000FD443 /* background.jpg */; };
+		1409630F1D22906E000FD443 /* vay.png in Resources */ = {isa = PBXBuildFile; fileRef = 1409630E1D22906E000FD443 /* vay.png */; };
 		1448E5911D22180900F34ADD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1448E5901D22180900F34ADD /* AppDelegate.swift */; };
 		1448E5931D22180900F34ADD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1448E5921D22180900F34ADD /* ViewController.swift */; };
 		1448E5961D22180900F34ADD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1448E5941D22180900F34ADD /* Main.storyboard */; };
 		1448E5981D22180900F34ADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1448E5971D22180900F34ADD /* Assets.xcassets */; };
 		1448E59B1D22180900F34ADD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1448E5991D22180900F34ADD /* LaunchScreen.storyboard */; };
-		1448E5A61D2218E000F34ADD /* background1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1448E5A31D2218E000F34ADD /* background1.jpg */; };
-		1448E5A71D2218E000F34ADD /* Bell.png in Resources */ = {isa = PBXBuildFile; fileRef = 1448E5A41D2218E000F34ADD /* Bell.png */; };
-		1448E5A81D2218E000F34ADD /* snowFlake2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1448E5A51D2218E000F34ADD /* snowFlake2.png */; };
 		1448E5AA1D221A8D00F34ADD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1448E5A91D221A8D00F34ADD /* Item.swift */; };
+		14E7942C1D22C4770098FD82 /* vaydo.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E7942B1D22C4770098FD82 /* vaydo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		140962FB1D2283CF000FD443 /* aothun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aothun.png; sourceTree = "<group>"; };
+		140962FC1D2283CF000FD443 /* body.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = body.png; sourceTree = "<group>"; };
+		140962FD1D2283CF000FD443 /* giaydo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giaydo.png; sourceTree = "<group>"; };
+		140962FE1D2283CF000FD443 /* giayvang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giayvang.png; sourceTree = "<group>"; };
+		140962FF1D2283CF000FD443 /* kinhkhongtrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kinhkhongtrong.png; sourceTree = "<group>"; };
+		140963001D2283CF000FD443 /* kinhram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kinhram.png; sourceTree = "<group>"; };
+		140963011D2283CF000FD443 /* quandai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quandai.png; sourceTree = "<group>"; };
+		1409630A1D2283E6000FD443 /* mutim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mutim.png; sourceTree = "<group>"; };
+		1409630C1D228488000FD443 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		1409630E1D22906E000FD443 /* vay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vay.png; sourceTree = "<group>"; };
 		1448E58D1D22180900F34ADD /* GestureRecognize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureRecognize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1448E5901D22180900F34ADD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1448E5921D22180900F34ADD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,10 +44,8 @@
 		1448E5971D22180900F34ADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1448E59A1D22180900F34ADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1448E59C1D22180900F34ADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1448E5A31D2218E000F34ADD /* background1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background1.jpg; sourceTree = "<group>"; };
-		1448E5A41D2218E000F34ADD /* Bell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bell.png; sourceTree = "<group>"; };
-		1448E5A51D2218E000F34ADD /* snowFlake2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowFlake2.png; sourceTree = "<group>"; };
 		1448E5A91D221A8D00F34ADD /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		14E7942B1D22C4770098FD82 /* vaydo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vaydo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +93,17 @@
 		1448E5A21D22181B00F34ADD /* resoure */ = {
 			isa = PBXGroup;
 			children = (
-				1448E5A31D2218E000F34ADD /* background1.jpg */,
-				1448E5A41D2218E000F34ADD /* Bell.png */,
-				1448E5A51D2218E000F34ADD /* snowFlake2.png */,
+				14E7942B1D22C4770098FD82 /* vaydo.png */,
+				1409630E1D22906E000FD443 /* vay.png */,
+				1409630C1D228488000FD443 /* background.jpg */,
+				1409630A1D2283E6000FD443 /* mutim.png */,
+				140962FB1D2283CF000FD443 /* aothun.png */,
+				140962FC1D2283CF000FD443 /* body.png */,
+				140962FD1D2283CF000FD443 /* giaydo.png */,
+				140962FE1D2283CF000FD443 /* giayvang.png */,
+				140962FF1D2283CF000FD443 /* kinhkhongtrong.png */,
+				140963001D2283CF000FD443 /* kinhram.png */,
+				140963011D2283CF000FD443 /* quandai.png */,
 			);
 			name = resoure;
 			sourceTree = "<group>";
@@ -142,12 +166,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				140963031D2283CF000FD443 /* aothun.png in Resources */,
 				1448E59B1D22180900F34ADD /* LaunchScreen.storyboard in Resources */,
 				1448E5981D22180900F34ADD /* Assets.xcassets in Resources */,
-				1448E5A71D2218E000F34ADD /* Bell.png in Resources */,
 				1448E5961D22180900F34ADD /* Main.storyboard in Resources */,
-				1448E5A61D2218E000F34ADD /* background1.jpg in Resources */,
-				1448E5A81D2218E000F34ADD /* snowFlake2.png in Resources */,
+				1409630B1D2283E6000FD443 /* mutim.png in Resources */,
+				1409630F1D22906E000FD443 /* vay.png in Resources */,
+				140963081D2283CF000FD443 /* kinhram.png in Resources */,
+				14E7942C1D22C4770098FD82 /* vaydo.png in Resources */,
+				140963071D2283CF000FD443 /* kinhkhongtrong.png in Resources */,
+				140963061D2283CF000FD443 /* giayvang.png in Resources */,
+				140963041D2283CF000FD443 /* body.png in Resources */,
+				1409630D1D228488000FD443 /* background.jpg in Resources */,
+				140963051D2283CF000FD443 /* giaydo.png in Resources */,
+				140963091D2283CF000FD443 /* quandai.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +344,7 @@
 				1448E5A11D22180900F34ADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
